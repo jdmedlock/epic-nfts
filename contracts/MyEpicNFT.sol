@@ -15,8 +15,8 @@ contract MyEpicNFT is ERC721URIStorage {
   Counters.Counter private _tokenIds;
 
   // We need to pass the name of our NFTs token and it's symbol.
-  constructor() ERC721 ("SquareNFT", "SQUARE") {
-    console.log("This is my NFT contract. Woah!");
+  constructor() ERC721 ("ChinguNFT", "CHINGU") {
+    console.log("This is my Chingu NFT contract. Woah!");
   }
 
   // A function our user will hit to get their NFT.
